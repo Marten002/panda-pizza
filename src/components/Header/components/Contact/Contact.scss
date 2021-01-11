@@ -1,0 +1,134 @@
+@import '../../../../scss/index';
+
+.contact {
+
+    &--mobile {
+
+        .contact__text {
+            display: none;
+        }
+
+        .contact__menu {
+            align-items: center;
+
+            &-text {
+                margin-right: 20px;
+
+                @media only screen and (max-width: 320px) {
+                    margin-right: 0;
+                }
+            }
+
+            .select--language {
+                margin-right: 0;
+
+                border: none;
+            }
+        }
+    }
+
+    &--active {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        position: fixed;
+        top: 0;
+        left: 0;
+
+        width: 100vw;
+        height: 100vh;
+
+        z-index: 9;
+
+        background-image: url('../../../../pages/Home/images/backgroundImage.svg');
+        background-repeat: no-repeat;
+
+        .contact__text, .contact__menu {
+            display: flex;
+            justify-content: center;
+        }
+
+        .contact__text {
+            margin-top: 170px;
+        }
+
+        .contact__menu {
+            margin-top: 20px;
+            
+            flex-direction: column;
+            align-items: center;
+
+            .select--language {
+                margin: 20px 0 0;
+                order: 2;
+            }
+
+            &-text {
+                order: 1;
+            }
+        }
+        
+        .footer {
+            flex-direction: column;
+            margin-top: 100px;
+            
+            &__item {
+                margin-top: 40px;
+                &:nth-child(2) {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    &__text {
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 26px;
+        text-align: center;
+        letter-spacing: -0.01em;
+
+        @media only screen and (max-width: 1440px) {
+            font-size: 21px;
+            line-height: 23px;
+        }
+        @media only screen and (max-width: 768px) {
+            font-size: 19px;
+            line-height: 21px;
+        }
+    }
+
+    &__menu {
+        display: flex;
+        justify-content: flex-end;
+
+        &-text {
+            font-family: $font-ranchers;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 24px;
+            line-height: 40px;
+            letter-spacing: -0.01em;
+
+            a {
+                text-decoration: none;
+                color: $color-black;
+            }
+
+            @media only screen and (max-width: 1440px) {
+                font-size: 21px;
+                line-height: 36px;
+            }
+
+            @media only screen and (max-width: 768px) {
+                font-size: 21px;
+                line-height: 36px;
+            }
+        }
+
+        @media only screen and (max-width: 768px) {
+            margin-top: 0;
+        }
+    }
+}

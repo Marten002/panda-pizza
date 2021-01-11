@@ -1,0 +1,32 @@
+@import './scss/index';
+
+.app {
+    position: relative;
+
+    overflow: hidden;
+
+    font-family: $font-montserrat;
+    font-style: normal;
+    font-weight: normal;
+    color: $color-black;
+
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    &__background {
+        position: absolute;
+        top: 0;
+
+        display: block;
+
+        max-width: 100%;
+        height: auto;
+
+        z-index: -1;
+
+        transition: all .0001s ease-in-out;
+    }
+}

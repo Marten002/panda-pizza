@@ -1,0 +1,42 @@
+@import '../../scss/index';
+
+.counter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 140px;
+
+    &__button {
+        button {
+            width: 33px;
+            height: 33px;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+            border-radius: 50%;
+            border: 1px solid $color-black;
+
+            background-color: transparent;
+
+            font-family: $font-montserrat;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 24px;
+            line-height: 14px;
+            letter-spacing: -0.01em;
+            color: $color-black;
+
+            cursor: pointer;
+        }
+    }
+    .count {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        margin: 0 25px;
+    }
+}

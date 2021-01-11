@@ -1,0 +1,232 @@
+{
+  "Header": {
+    "Contact": {
+      "text": "You can make an order from 11:30 to 23:00. Free shipping from 500 CZK"
+    }
+  },
+  "Main": {
+    "Headline": {
+      "text": "Fast and tasty",
+      "textCaption": "pizza & sushi delivery in Prague"
+    },
+    "Tab": {
+      "Nav":{
+        "pizza": "Pizza",
+        "sushi": "Sushi&rolls",
+        "sets": "Sets",
+        "salad": "Salad",
+        "drinks": "Drinks",
+        "other": "Other"
+      },
+      "Panel": {
+
+      }
+    },
+    "Card": {
+      "Title": {
+        "Margarita": "Margarita",
+        "Hawaii": "Hawaii",
+        "Pepperoni": "Pepperoni",
+        "Carbonara": "Carbonara",
+        "Mushroom": "Mushroom",
+        "Salmon": "Salmon",
+        "4 cheeses": "4 cheeses",
+        "Balonese": "Balonese",
+        "Mix di carne": "Mix di carne",
+        "Mexico": "Mexico",
+        "Vegetarian": "Vegetarian",
+
+        "Philadelphia": "Philadelphia",
+        "Capa - Make": "Capa - Make",
+        "Hoso - Make": "Hoso - Make",
+        "Volcano roll": "Volcano roll",
+        "Sake - Make": "Sake - Make",
+        "Tempura roll": "Tempura roll",
+        "Yaki Sake": "Yaki Sake",
+        "Yaki Ebi": "Yaki Ebi",
+        "Yaki Kani": "Yaki Kani",
+        "California roll": "California roll",
+        "Chicken roll": "Chicken roll",
+        "Fitness roll": "Fitness roll",
+
+        "Set Salmon": "Set Salmon",
+        "Tempura Set": "Tempura Set",
+
+        "Salmon Salad": "Salmon Salad",
+        "Warm salad with cheese and mushrooms": "Warm salad with cheese and mushrooms",
+        "Greek salad": "Greek salad",
+
+        "Coca-Cola": "Coca-Cola",
+        "Sprite": "Sprite",
+        "Fanta": "Fanta",
+        "7UP": "7UP",
+        "Bon Aqua": "Bon Aqua",
+        "Coca-Cola Light": "Coca-Cola Light",
+        "Red Bull": "Red Bull",
+        "Sprite 1 l": "Sprite 1 l",
+        "Coca-Cola 1 l": "Coca-Cola 1 l",
+
+        "Sushi sticks": "Sushi sticks",
+        "Pickled ginger": "Pickled ginger",
+        "Soy Sauce": "Soy Sauce",
+        "Wakame": "Wakame",
+        "Mozzarella": "Mozzarella"
+      },
+      "Description": {
+        "Tomato sauce, mozzarella, tomato": "Tomato sauce, mozzarella, tomato",
+        "Tomato sauce, cheese, chicken fillet, pineapple": "Tomato sauce, cheese, chicken fillet, pineapple",
+        "Tomato sauce, mozzarella, salami, jalapeno pepper": "Tomato sauce, mozzarella, salami, jalapeno pepper",
+        "Tomato sauce, mozzarella, salami, peanut": "Tomato sauce, mozzarella, salami, peanut",
+        "Tomato sauce, mozzarella, bacon, egg, parmesan": "Tomato sauce, mozzarella, bacon, egg, parmesan",
+        "Tomato sauce, mozzarella, mushrooms, onions": "Tomato sauce, mozzarella, mushrooms, onions",
+        "Tomato sauce, mozzarella, salmon, greens": "Tomato sauce, mozzarella, salmon, greens",
+        "Tomato sauce, mozzarella, parmesan, gouda cheese, eidsm cheese": "Tomato sauce, mozzarella, parmesan, gouda cheese, eidsm cheese",
+        "Tomato sauce, mozzarella, minced balonese, tomato, serf": "Tomato sauce, mozzarella, minced balonese, tomato, serf",
+        "Tomato sauce, mozzarella, bacon, minced balonese, tomato, onion": "Tomato sauce, mozzarella, bacon, minced balonese, tomato, onion",
+        "Tomato sauce, mozzarella, spicy sauce, chili pepper, sloppy": "Tomato sauce, mozzarella, spicy sauce, chili pepper, sloppy",
+        "Tomato sauce, mozzarella, bell pepper, tomato, onion, olives, herbs": "Tomato sauce, mozzarella, bell pepper, tomato, onion, olives, herbs",
+
+        "Rice, cucumbers, salmon, cheese, soy sauce, ginger, wakame, wasabi": "Rice, cucumbers, salmon, cheese, soy sauce, ginger, wakame, wasabi",
+        "Rice, cucumber, lettuce, sauce, soy sauce, ginger, wakame, wasabi": "Rice, cucumber, lettuce, sauce, soy sauce, ginger, wakame, wasabi",
+        "Rice, salmon, caviar, sauce, soy sauce, ginger, wakame, wasabi": "Rice, salmon, caviar, sauce, soy sauce, ginger, wakame, wasabi",
+        "Rice, salmon, crackers, cucumbers, soy sauce, ginger, wakame, wasabi": "Rice, salmon, crackers, cucumbers, soy sauce, ginger, wakame, wasabi",
+        "Rice, cheese, salmon, sesame seeds, sauce, soy sauce, ginger, wakame, wasabi": "Rice, cheese, salmon, sesame seeds, sauce, soy sauce, ginger, wakame, wasabi",
+        "Rice, cheese, shrimp, avocado, sauce, soy sauce, ginger, wakame, wasabi": "Rice, cheese, shrimp, avocado, sauce, soy sauce, ginger, wakame, wasabi",
+        "Rice, shrimp, caviar, sauce, soy sauce, ginger, wakame, wasabi": "Rice, shrimp, caviar, sauce, soy sauce, ginger, wakame, wasabi",
+        "Rice, chicken, sauce, crackers, cucumbers, soy sauce, ginger, wakame, wasabi": "Rice, chicken, sauce, crackers, cucumbers, soy sauce, ginger, wakame, wasabi",
+        "Rice, cucumbers, avocados, cheese, lettuce, sesame seeds, soy sauce, ginger, wakame, wasabi": "Rice, cucumbers, avocados, cheese, lettuce, sesame seeds, soy sauce, ginger, wakame, wasabi",
+
+        "Philadelphia, tempura, sake-make, capa-make, soy sauce, ginger, wakame, wasabi": "Philadelphia, tempura, sake-make, capa-make, soy sauce, ginger, wakame, wasabi",
+        "Tempura roll, roll in batter, chicken roll, soy sauce, ginger, wakame, wasabi": "Tempura roll, roll in batter, chicken roll, soy sauce, ginger, wakame, wasabi",
+
+        "Lettuce, arugula, salmon, avocado, sauce": "Lettuce, arugula, salmon, avocado, sauce",
+        "Mushrooms, cheese, lettuce, sauce": "Mushrooms, cheese, lettuce, sauce",
+        "Cucumber, cheese (Feta), tomato, olives, bell pepper, sauce": "Cucumber, cheese (Feta), tomato, olives, bell pepper, sauce",
+
+        "Sushi sticks": "Sushi sticks",
+        "Pickled ginger": "Pickled ginger",
+        "Soy sauce": "Soy sauce",
+        "Wakame": "Wakame",
+        "Mozzarella": "Mozzarella",
+        "Packaging": "Packaging"
+      },
+      "Count": {
+        "24 pieces": "24 pieces",
+        "16 pieces": "16 pieces",
+        "8 pieces": "8 pieces",
+        "1 piece": "1 piece",
+
+        "270 grams": "270 grams",
+        "260 grams": "260 grams",
+        "25 gr": "25 gr",
+        "50 gr": "50 gr",
+
+        "0,25 l": "0,25 l",
+        "0,5 l": "0,5 l",
+        "30 ml": "30 ml",
+        "1 l": "1 l"
+      },
+      "Price": {
+        "unit": "CZK"
+      },
+      "Button": {
+        "text": "Add"
+      }
+    }
+  },
+  "Cart": {
+    "Headline": {
+      "text": "Your order"
+    },
+    "Headline2": {
+      "text": "Oooops!"
+    },
+    "CartLink": {
+      "text": "back to tasty menu"
+    },
+    "Description": {
+      "text": "Your basket is empty :("
+    },
+    "Table": {
+      "Total": {
+        "text": "Total price"
+      },
+      "Order": {
+        "text": "Order"
+      }
+    }
+  },
+  "Shipping": {
+    "Headline": {
+      "text": "Choose shipping method"
+    },
+    "CartLink": {
+      "text": "back"
+    },
+    "Button": {
+      "text": "Pickup",
+      "caption": "Dobronická 50/9, Prague"
+    },
+    "Button2": {
+      "text": "Courier delivery",
+      "caption": "Delivery cost in Prague 69 CZK",
+      "caption2": "Free shipping"
+    },
+    "Button3": {
+      "text": "Select"
+    }
+  },
+  "Order": {
+    "Headline": {
+      "text": "Your order"
+    },
+    "CartLink": {
+      "text": "back"
+    },
+    "Button": {
+      "text": "Cash to the courier"
+    },
+    "Button2": {
+      "text": "Card to courier"
+    },
+    "Button3": {
+      "text": "Order"
+    },
+    "Form": {
+      "Label": {
+        "name": "Name",
+        "phone": "Phone number",
+        "address": "Delivery Address",
+        "flat": "Flat",
+        "comment": "Comment"
+      },
+      "Input": {
+        "name": "IVAN",
+        "phone": "+420 584 274 835",
+        "address": "Kamelova 3167/34, Praha 10",
+        "flat": "5",
+        "comment": "For example delivery or food specifications"
+      }
+    }
+  },
+  "Resolve": {
+    "Headline": {
+      "text": "Thank You!"
+    },
+    "Headline2": {
+      "text": "Oooops!"
+    },
+    "CartLink": {
+      "text": "back to tasty menu"
+    },
+    "Description": {
+      "text": "Your order is already being prepared and will be delivered to you soon!"
+    },
+    "Description2": {
+      "text": "Your basket is empty :("
+    }
+  },
+  "Footer": {
+
+  }
+}

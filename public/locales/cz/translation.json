@@ -1,0 +1,231 @@
+{
+  "Header": {
+    "Contact": {
+      "text": "Můžete si objednat od 11:30 do 23:00. Doprava zdarma od 500 kč"
+    }
+  },
+  "Main": {
+    "Headline": {
+      "text": "Rychlé a chutné dodávky",
+      "textCaption": "pizzy a rollů v Praze"
+    },
+    "Tab": {
+      "Nav":{
+        "pizza": "Pizza",
+        "sushi": "Sushi&rolly",
+        "sets": "Setý",
+        "salad": "Saláty",
+        "drinks": "Nápoje",
+        "other": "Jiné"
+      },
+      "Panel": {
+
+      }
+    },
+    "Card": {
+      "Title": {
+        "Margarita": "Margherita",
+        "Hawaii": "Hawaii",
+        "Pepperoni": "Pepperoni",
+        "Carbonara": "Carbonara",
+        "Mushroom": "Houbová",
+        "Salmon": "Salmon",
+        "4 cheeses": "Quattro formaggi",
+        "Balonese": "Boloňská",
+        "Mix di carne": "Mix di carne",
+        "Mexico": "Mexická pizza",
+        "Vegetarian": "Vegetariánská",
+
+        "Philadelphia": "Philadelphie",
+        "Capa - Make": "Kapa - make",
+        "Hoso - Make": "Hoso - Make",
+        "Volcano roll": "Volcano roll",
+        "Sake - Make": "Sake - Make",
+        "Tempura roll": "Tempura roll",
+        "Yaki Sake": "Yaki Sake",
+        "Yaki Ebi": "Yaki Ebi",
+        "Yaki Kani": "Yaki Kani",
+        "California roll": "Kalifornie roll",
+        "Chicken roll": "Kuřecí roll",
+        "Fitness roll": "Fitness roll",
+
+        "Set Salmon": "Lososový set",
+        "Tempura Set": "Tempura Set",
+
+        "Salmon Salad": "Lososový salát",
+        "Warm salad with cheese and mushrooms": "Teplý salát se sýrem a žampiony",
+        "Greek salad": "Řecký salát",
+
+        "Coca-Cola": "Coca-Cola",
+        "Sprite": "Sprite",
+        "Fanta": "Fanta",
+        "7UP": "7UP",
+        "Bon Aqua": "Bon Aqua",
+        "Coca-Cola Light": "Coca-Cola Light",
+        "Red Bull": "Red Bull",
+        "Sprite 1 l": "Sprite 1 l",
+        "Coca-Cola 1 l": "Coca-Cola 1 l",
+
+        "Sushi sticks": "Sushi sticks",
+        "Pickled ginger": "Pickled ginger",
+        "Soy Sauce": "Soy Sauce",
+        "Wakame": "Wakame",
+        "Mozzarella": "Mozzarella"
+      },
+      "Description": {
+        "Tomato sauce, mozzarella, tomato": "Rajčatový základ, mozzarella, rajče",
+        "Tomato sauce, cheese, chicken fillet, pineapple": "Rajčatový základ, sýr, kuře, ananas",
+        "Tomato sauce, mozzarella, salami, jalapeno pepper": "Rajčatový základ, mozzarella, salám, paprika",
+        "Tomato sauce, mozzarella, salami, peanut": "Rajčatový základ, mozzarella, salám, paprika",
+        "Tomato sauce, mozzarella, bacon, egg, parmesan": "Rajčatový základ, mozzarella, slanina, vejce, parmezán",
+        "Tomato sauce, mozzarella, mushrooms, onions": "Rajčatový základ, mozzarella, houby, cibule",
+        "Tomato sauce, mozzarella, salmon, greens": "Rajčatový základ, mozzarella, salmon, rukola",
+        "Tomato sauce, mozzarella, parmesan, gouda cheese, eidsm cheese": "Rajčatový základ, mozzarella, parmezán, gouda, eidam",
+        "Tomato sauce, mozzarella, minced balonese, tomato, serf": "Rajčatový základ, mozzarella, mleté maso, rajče, paprika",
+        "Tomato sauce, mozzarella, bacon, minced balonese, tomato, onion": "Rajčatový základ, mozzarella, slanina, mleté maso, rajče, cibule",
+        "Tomato sauce, mozzarella, spicy sauce, chili pepper, sloppy": "Rajčatový základ, mozzarella, pálivá omáčka, chilli, paprika",
+        "Tomato sauce, mozzarella, bell pepper, tomato, onion, olives, herbs": "Rajčatový základ, mozzarella, paprika, rajče, cibule, černé olivy, rukola",
+
+        "Rice, cucumbers, salmon, cheese, soy sauce, ginger, wakame, wasabi": "Rýže, okurky, losos, sýr, sójová omáčka , zázvor, vakame, wasabi",
+        "Rice, cucumber, lettuce, sauce, soy sauce, ginger, wakame, wasabi": "Rýže, avocado, salátový list, speciální omáčka, sójová omáčka , zázvor, vakame, wasabi",
+        "Rice, salmon, caviar, sauce, soy sauce, ginger, wakame, wasabi": "Rýže, losos, kaviár, speciální omáčka, sójová omáčka, zázvor, vakame, wasabi",
+        "Rice, salmon, crackers, cucumbers, soy sauce, ginger, wakame, wasabi": "Rýže, losos, okurky, speciální omáčka, sójová omáčka, zázvor, vakame, wasabi",
+        "Rice, cheese, salmon, sesame seeds, sauce, soy sauce, ginger, wakame, wasabi": "Rýže, sýr, losos, sezam, speciální omáčka, sójová omáčka, zázvor, vakame, wasabi",
+        "Rice, cheese, shrimp, avocado, sauce, soy sauce, ginger, wakame, wasabi": "Rýže, sýr, krevety, avocado, speciální omáčka, sójová omáčka, zázvor, vakame, wasabi",
+        "Rice, shrimp, caviar, sauce, soy sauce, ginger, wakame, wasabi": "Rýže, krevety, kaviár, speciální omáčka, sójová omáčka, zázvor, vakame, wasabi",
+        "Rice, chicken, sauce, crackers, cucumbers, soy sauce, ginger, wakame, wasabi": "Rýže, kuře, speciální omáčka, sušenky, okurky, sójová omáčka, zázvor, vakame, wasabi",
+        "Rice, cucumbers, avocados, cheese, lettuce, sesame seeds, soy sauce, ginger, wakame, wasabi": "Rýže, okurky, avocado, sýr, salátový list, sezam, sójová omáčka, zázvor, vakame, wasabi",
+
+        "Philadelphia, tempura, sake-make, capa-make, soy sauce, ginger, wakame, wasabi": "Philadelphie, Tempura, Sake-make, Kapa-make. Sójová omáčka, zázvor, vakame, wasabi",
+        "Tempura roll, roll in batter, chicken roll, soy sauce, ginger, wakame, wasabi": "Tempura, Roll v těstíčku, Kuřecí roll. Sójová omáčka, zázvor, vakame, wasabi",
+
+        "Lettuce, arugula, salmon, avocado, sauce": "Salátový list ,rukola, losos , avocado, omáčka",
+        "Mushrooms, cheese, lettuce, sauce": "Houby, sýr, hlávkový salát, omáčka",
+        "Cucumber, cheese (Feta), tomato, olives, bell pepper, sauce": "Okurky, sýr Feta, rajče, černé olivy, paprika, omáčka",
+
+        "Sushi sticks": "Sushi tyčinky",
+        "Pickled ginger": "Nakládaný zázvor",
+        "Soy sauce": "Sójová omáčka",
+        "Wakame": "Wakame",
+        "Mozzarella": "Mozzarella",
+        "Packaging": "Packaging"
+      },
+      "Count": {
+        "24 pieces": "24 ks",
+        "16 pieces": "16 ks",
+        "8 pieces": "8 ks",
+        "1 piece": "1 ks",
+
+        "270 grams": "270 grams",
+        "260 grams": "260 grams",
+        "25 gr": "25 gr",
+        "50 gr": "50 gr",
+
+        "0,25 l": "0,25 l",
+        "0,5 l": "0,5 l",
+        "30 ml": "30 ml",
+        "1 l": "1 l"
+      },
+      "Price": {
+        "unit": "Kč"
+      },
+      "Button": {
+        "text": "Vybrat"
+      }
+    }
+  },
+  "Cart": {
+    "Headline": {
+      "text": "Vaše objednávka"
+    },
+    "Headline2": {
+      "text": "Oooops!"
+    },
+    "CartLink": {
+      "text": "zpět na menu"
+    },
+    "Description": {
+      "text": "Košík je prázdný:("
+    },
+    "Table": {
+      "Total": {
+        "text": "Total price"
+      },
+      "Order": {
+        "text": "Objednat"
+      }
+    }
+  },
+  "Shipping": {
+    "Headline": {
+      "text": "Vyberte způsob dopravy"
+    },
+    "CartLink": {
+      "text": "zpět"
+    },
+    "Button": {
+      "text": "Vyzvednout",
+      "caption": "Dobronická 50/9, Prague"
+    },
+    "Button2": {
+      "text": "Doručení kurýrem",
+      "caption": "Cena dopravy v Praze 69 Kč"
+    },
+    "Button3": {
+      "text": "Vyberte"
+    }
+  },
+  "Order": {
+    "Headline": {
+      "text": "Vaše objednávka"
+    },
+    "CartLink": {
+      "text": "zpět"
+    },
+    "Button": {
+      "text": "Platba hotovosti"
+    },
+    "Button2": {
+      "text": "Platba kartou kurýrovi"
+    },
+    "Button3": {
+      "text": "Objednat"
+    },
+    "Form": {
+      "Label": {
+        "name": "Jméno",
+        "phone": "Telefonní číslo",
+        "address": "Doručovací adresa",
+        "flat": "Byt",
+        "comment": "Poznámka"
+      },
+      "Input": {
+        "name": "IVAN",
+        "phone": "+420 584 274 835",
+        "address": "Kamelova 3167/34, Praha 10",
+        "flat": "5",
+        "comment": "Například, vlastnosti dodávky nebo jídla"
+      }
+    }
+  },
+  "Resolve": {
+    "Headline": {
+      "text": "Děkuji!"
+    },
+    "Headline2": {
+      "text": "Oooops!"
+    },
+    "CartLink": {
+      "text": "zpět do menu"
+    },
+    "Description": {
+      "text": "Vaše objednávka se již připravuje a brzy vám bude doručena!"
+    },
+    "Description2": {
+      "text": "Košík je prázdný:("
+    }
+  },
+  "Footer": {
+
+  }
+}

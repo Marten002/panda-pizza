@@ -1,0 +1,45 @@
+@import '../../scss/index';
+
+.switch {
+    display: flex;
+    justify-content: space-between;
+
+    &__button {
+        font-family: $font-poppins;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 24px;
+        line-height: 26px;
+        letter-spacing: -0.01em;
+        color: $color-black;
+
+        width: 160px;
+        height: 40px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        background-color: $color-orange--light;
+
+        border: none;
+        border-radius: 14px;
+
+        cursor: pointer;
+
+        &--active {
+            background-color: $color-orange;
+        }
+
+        @media only screen and (max-width: 1440px) {
+            width: 130px;
+        }
+
+        @media only screen and (max-width: 1024px) {
+            width: 110px;
+
+            font-size: 20px;
+            line-height: 22px;
+        }
+    }
+}

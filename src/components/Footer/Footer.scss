@@ -1,0 +1,71 @@
+@import '../../scss/index';
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 160px;
+    padding-bottom: 40px;
+
+    &__item {
+        margin: 0 50px;
+
+        a {
+            text-decoration: none;
+            display: flex;
+        }
+
+        @media only screen and (max-width: 768px) {
+            margin: 0 25px;
+        }
+
+        @media only screen and (max-width: 425px) {
+            margin: 15px 0;
+
+            &:nth-child(2) {
+                order: 1;
+            }
+        }
+    }
+
+    &__contact {
+        display: flex;
+        align-items: center;
+
+        span {
+            font-size: 24px;
+            line-height: 40px;
+            letter-spacing: -0.01em;
+            color: $color-orange;
+
+            @media only screen and (max-width: 768px) {
+                font-size: 21px;
+                line-height: 23px;
+            }
+        }
+
+        img {
+            margin-right: 10px;
+        }
+    }
+
+    @media only screen and (max-width: 1440px) {
+        .logo__caption {
+            width: 70px;
+        }
+    }
+
+    @media only screen and (max-width: 768px) {
+        .logo__caption {
+            width: 60px;
+        }
+    }
+
+    @media only screen and (max-width: 425px) {
+        flex-direction: column;
+
+        padding-top: 30px;
+        background-color: $color-beige;
+    }
+}

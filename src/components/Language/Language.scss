@@ -1,0 +1,88 @@
+@import '../../scss/index';
+
+.dropdown {
+    border: 1px solid $color-orange;
+    border-radius: 3px;
+
+    width: 70px;
+    height: 40px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    cursor: pointer;
+
+    position: relative;
+
+    margin-right: 40px;
+
+    &::after {
+        content: url('./image/arrow.svg');
+
+        position: absolute;
+        right: 5px;
+        top: 50%;
+
+        transform: translateY(calc(-50% - 2px));
+        transition: all .2s ease-in-out;
+    }
+
+    span {
+        font-family: $font-montserrat;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 19px;
+        color: $color-grey--dark;
+    }
+
+    &__current {
+        margin-right: 5px;
+    }
+
+    &__content {
+        position: absolute;
+        top: 55px;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        width: 100%;
+
+        border: 1px solid $color-orange;
+        border-radius: 3px;
+
+        z-index: 100;
+    }
+
+    &__item {
+        text-decoration: none;
+        color: $color-grey--dark;
+
+        width: 100%;
+        height: 40px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        &:nth-child(1) {
+            border-bottom: 1px solid $color-orange;
+        }
+
+        &:hover {
+            background-color: $color-orange;
+            
+            span {
+                color: $color-white;
+            }
+        }
+    }
+    
+    &.active {
+        &::after {
+            transform: translateY(calc(-50% + 3px)) rotate(180deg);
+        }
+    }
+}

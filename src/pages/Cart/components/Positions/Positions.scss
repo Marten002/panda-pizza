@@ -1,0 +1,123 @@
+@import '../../../../scss/index';
+
+.positions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    font-family: $font-montserrat;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: -0.01em;
+    color: $color-black;
+
+    margin-top: 30px;
+
+    &__item {
+
+        &--title {  
+            font-size: 24px;
+            line-height: 20px;
+            flex-basis: 25%;
+        }
+    
+        &--information {
+            font-weight: 300;
+            font-size: 18px;
+            line-height: 20px;
+            flex-basis: 50%;
+        }
+
+        &--counter {
+            flex-basis: 12.5%;
+
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+        }
+    
+        &--price {
+            font-size: 24px;
+            line-height: 20px;
+            text-align: right;
+
+            flex-basis: 12.5%;
+        }
+
+        @media only screen and (max-width: 1440px) {
+            &--title {  
+                font-size: 20px;
+                line-height: 22px;
+            }
+        
+            &--information {
+                font-weight: 300;
+                font-size: 16px;
+                line-height: 18px;
+            }
+        
+            &--price {
+                font-size: 20px;
+                line-height: 22px;
+            }
+        }
+
+        @media only screen and (max-width: 425px) {
+            flex-basis: initial;
+
+            &--title {
+                font-size: 12px;
+                line-height: 14px;
+
+                width: 100%;
+            }
+
+            &--information {
+                margin-top: 10px;
+
+                font-size: 8px;
+                line-height: 10px;
+
+                width: 100%;
+            }
+
+            &--counter, &--price {
+                margin: 15px 0 0;
+
+                font-size: 12px;
+                line-height: 14px;
+
+                flex-basis: 50%;
+
+                justify-content: initial;
+            }
+
+            &--counter {
+
+                .counter {
+                    width: 110px;
+                }
+
+                button {
+                    width: 20px;
+                    height: 20px;
+
+                    font-size: 12px;
+                    line-height: 14px;
+                }
+            }
+        }
+    }
+
+    @media only screen and (max-width: 1024px) {
+        max-width: 700px;
+        margin: 30px auto 0;
+    }
+
+    @media only screen and (max-width: 425px) {
+        flex-wrap: wrap;
+
+        padding-bottom: 15px;
+        border-bottom: 1px solid $color-orange;
+    }
+}

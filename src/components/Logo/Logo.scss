@@ -1,0 +1,37 @@
+.logo {
+
+    &__link {
+        display: flex;
+        align-items: center;
+    }
+
+    &__image {
+        display: block;
+        max-width: 100%;
+        height: auto;
+
+        @media only screen and (max-width: 1440px) {
+            width: 100px;
+        }
+        @media only screen and (max-width: 768px) {
+            width: 80px;
+        }
+    }
+    &__caption {
+        margin-left: 20px;
+    }
+
+    &--header {
+        z-index: 10;
+    }
+
+    &--active {
+        position: fixed;
+        left: 40px;
+        top: 46px;
+
+        @media only screen and (max-width: 425px) {
+            left: 20px;
+        }
+    }
+}

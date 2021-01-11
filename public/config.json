@@ -1,0 +1,671 @@
+[
+  {
+    "name": "Margarita",
+    "description": "Tomato sauce, mozzarella, tomato",
+    "information": "Allergens 7, 1",
+    "type": "pizza",
+    "img": 0,
+    "variants": [
+      {
+        "id": 0,
+        "size": 32,
+        "price": 120
+      },
+      {
+        "id": 1,
+        "size": 40,
+        "price": 170
+      }
+    ]
+  },
+  {
+    "name": "Hawaii",
+    "description": "Tomato sauce, cheese, chicken fillet, pineapple",
+    "information": "Allergens 7",
+    "type": "pizza",
+    "img": 1,
+    "variants": [
+      {
+        "id": 2,
+        "size": 32,
+        "price": 185
+      },
+      {
+        "id": 3,
+        "size": 40,
+        "price": 210
+      }
+    ]
+  },
+  {
+    "name": "Pepperoni",
+    "description": "Tomato sauce, mozzarella, salami, peanut",
+    "information": "Allergens 7",
+    "type": "pizza",
+    "img": 2,
+    "variants": [
+      {
+        "id": 4,
+        "size": 32,
+        "price": 140
+      },
+      {
+        "id": 5,
+        "size": 40,
+        "price": 170
+      }
+    ]
+  },
+  {
+    "name": "Pepperoni",
+    "description": "Tomato sauce, mozzarella, salami, jalapeno pepper",
+    "information": "Allergens 7",
+    "type": "pizza",
+    "img": 3,
+    "variants": [
+      {
+        "id": 6,
+        "size": 32,
+        "price": 140
+      },
+      {
+        "id": 7,
+        "size": 40,
+        "price": 170
+      }
+    ],
+    "specificity": ["hot"]
+  },
+  {
+    "name": "Mushroom",
+    "description": "Tomato sauce, mozzarella, mushrooms, onions",
+    "information": "Allergens 7",
+    "type": "pizza",
+    "img": 4,
+    "variants": [
+      {
+        "id": 8,
+        "size": 32,
+        "price": 180
+      },
+      {
+        "id": 9,
+        "size": 40,
+        "price": 170
+      }
+    ]
+  },
+  {
+    "name": "Salmon",
+    "description": "Tomato sauce, mozzarella, salmon, greens",
+    "information": "Allergens 7, 4",
+    "type": "pizza",
+    "img": 5,
+    "variants": [
+      {
+        "id": 10,
+        "size": 32,
+        "price": 200
+      },
+      {
+        "id": 11,
+        "size": 40,
+        "price": 240
+      }
+    ]
+  },
+  {
+    "name": "4 cheeses",
+    "description": "Tomato sauce, mozzarella, parmesan, gouda cheese, eidsm cheese",
+    "information": "Allergens 7",
+    "type": "pizza",
+    "img": 6,
+    "variants": [
+      {
+        "id": 12,
+        "size": 32,
+        "price": 190
+      },
+      {
+        "id": 13,
+        "size": 40,
+        "price": 230
+      }
+    ]
+  },
+  {
+    "name": "Balonese",
+    "description": "Tomato sauce, mozzarella, minced balonese, tomato, serf",
+    "information": "Allergens 7",
+    "type": "pizza",
+    "img": 7,
+    "variants": [
+      {
+        "id": 14,
+        "size": 32,
+        "price": 190
+      },
+      {
+        "id": 15,
+        "size": 40,
+        "price": 230
+      }
+    ]
+  },
+  {
+    "name": "Mix di carne",
+    "description": "Tomato sauce, mozzarella, bacon, minced balonese, tomato, onion",
+    "information": "Allergens 7",
+    "type": "pizza",
+    "img": 8,
+    "variants": [
+      {
+        "id": 16,
+        "size": 32,
+        "price": 220
+      },
+      {
+        "id": 17,
+        "size": 40,
+        "price": 270
+      }
+    ]
+  },
+  {
+    "name": "Mexico",
+    "description": "Tomato sauce, mozzarella, spicy sauce, chili pepper, sloppy",
+    "information": "Allergens 7",
+    "type": "pizza",
+    "img": 9,
+    "variants": [
+      {
+        "id": 18,
+        "size": 32,
+        "price": 180
+      },
+      {
+        "id": 19,
+        "size": 40,
+        "price": 210
+      }
+    ],
+    "specificity": ["hot", "hot", "hot"]
+  },
+  {
+    "name": "Vegetarian",
+    "description": "Tomato sauce, mozzarella, bell pepper, tomato, onion, olives, herbs",
+    "information": "Allergens 7",
+    "type": "pizza",
+    "img": 10,
+    "variants": [
+      {
+        "id": 20,
+        "size": 32,
+        "price": 145
+      },
+      {
+        "id": 21,
+        "size": 40,
+        "price": 165
+      }
+    ]
+  },
+  {
+    "name": "Carbonara",
+    "description": "Tomato sauce, mozzarella, bacon, egg, parmesan",
+    "information": "Allergens 3, 7",
+    "type": "pizza",
+    "img": 11,
+    "variants": [
+      {
+        "id": 22,
+        "size": 32,
+        "price": 180
+      },
+      {
+        "id": 23,
+        "size": 40,
+        "price": 220
+      }
+    ]
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  {
+    "name": "Philadelphia",
+    "description": "Rice, cucumbers, salmon, cheese, soy sauce, ginger, wakame, wasabi",
+    "information": "Allergens 4, 7 / 8 ks / 240 g",
+    "type": "sushi",
+    "img": 0,
+    "variants": [
+      {
+        "id": 24,
+        "count": "8 pieces",
+        "price": 245
+      }
+    ]
+  },
+  {
+    "name": "Capa - Make",
+    "description": "Rice, cucumber, lettuce, sauce, soy sauce, ginger, wakame, wasabi",
+    "information": "Allergens 3 / 8 ks / 230 g",
+    "type": "sushi",
+    "img": 1,
+    "variants": [
+      {
+        "id": 25,
+        "count": "8 pieces",
+        "price": 200
+      }
+    ]
+  },
+  {
+    "name": "Hoso - Make",
+    "description": "Rice, cucumber, lettuce, sauce, soy sauce, ginger, wakame, wasabi",
+    "information": "Allergens 3 / 8 ks / 230 g",
+    "type": "sushi",
+    "img": 2,
+    "variants": [
+      {
+        "id": 26,
+        "count": "8 pieces",
+        "price": 245
+      }
+    ]
+  },
+  {
+    "name": "Volcano roll",
+    "description": "Rice, salmon, caviar, sauce, soy sauce, ginger, wakame, wasabi",
+    "information": "Allergens 3, 4 / 8 ks / 275 g",
+    "type": "sushi",
+    "img": 3,
+    "variants": [
+      {
+        "id": 27,
+        "count": "8 pieces",
+        "price": 255
+      }
+    ]
+  },
+  {
+    "name": "Sake - Make",
+    "description": "Rice, salmon, crackers, cucumbers, soy sauce, ginger, wakame, wasabi",
+    "information": "Allergens 3, 4, 7 / 8 ks / 230 g",
+    "type": "sushi",
+    "img": 4,
+    "variants": [
+      {
+        "id": 28,
+        "count": "8 pieces",
+        "price": 210
+      }
+    ]
+  },
+  {
+    "name": "Tempura roll",
+    "description": "Rice, salmon, crackers, cucumbers, soy sauce, ginger, wakame, wasabi",
+    "information": "Allergens 3, 4 / 8 ks / 250 g",
+    "type": "sushi",
+    "img": 5,
+    "variants": [
+      {
+        "id": 29,
+        "count": "8 pieces",
+        "price": 220
+      }
+    ]
+  },
+  {
+    "name": "Yaki Sake",
+    "description": "Rice, cheese, salmon, sesame seeds, sauce, soy sauce, ginger, wakame, wasabi",
+    "information": "Allergens 3, 4, 7, 11 / 8 ks / 240 g",
+    "type": "sushi",
+    "img": 6,
+    "variants": [
+      {
+        "id": 30,
+        "count": "8 pieces",
+        "price": 250
+      }
+    ]
+  },
+  {
+    "name": "Yaki Ebi",
+    "description": "Rice, cheese, shrimp, avocado, sauce, soy sauce, ginger, wakame, wasabi",
+    "information": "Allergens 3, 7 / 8 ks / 250 g",
+    "type": "sushi",
+    "img": 7,
+    "variants": [
+      {
+        "id": 31,
+        "count": "8 pieces",
+        "price": 250
+      }
+    ]
+  },
+  {
+    "name": "Yaki Kani",
+    "description": "Rice, cucumbers, salmon, cheese, soy sauce, ginger, wakame, wasabi",
+    "information": "Allergens 3, 4 / 8 ks / 250 g",
+    "type": "sushi",
+    "img": 8,
+    "variants": [
+      {
+        "id": 32,
+        "count": "8 pieces",
+        "price": 240
+      }
+    ]
+  },
+  {
+    "name": "California roll",
+    "description": "Rice, shrimp, caviar, sauce, soy sauce, ginger, wakame, wasabi",
+    "information": "Allergens 7 / 8 ks / 245 g",
+    "type": "sushi",
+    "img": 9,
+    "variants": [
+      {
+        "id": 33,
+        "count": "8 pieces",
+        "price": 250
+      }
+    ]
+  },
+  {
+    "name": "Chicken roll",
+    "description": "Rice, chicken, sauce, crackers, cucumbers, soy sauce, ginger, wakame, wasabi",
+    "information": "Allergens  7 / 8 ks / 260 g",
+    "type": "sushi",
+    "img": 10,
+    "variants": [
+      {
+        "id": 34,
+        "count": "8 pieces",
+        "price": 230
+      }
+    ]
+  },
+  {
+    "name": "Fitness roll",
+    "description": "Rice, cucumbers, avocados, cheese, lettuce, sesame seeds, soy sauce, ginger, wakame, wasabi",
+    "information": "Allergens 7 / 8 ks / 240 g",
+    "type": "sushi",
+    "img": 11,
+    "variants": [
+      {
+        "id": 35,
+        "count": "8 pieces",
+        "price": 235
+      }
+    ]
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  {
+    "name": "Salmon Salad",
+    "description": "Lettuce, arugula, salmon, avocado, sauce",
+    "information": "Allergens 4 / 270 g",
+    "type": "salad",
+    "img": 0,
+    "variants": [
+      {
+        "id": 36,
+        "price": 170
+      }
+    ]
+  },
+  {
+    "name": "Warm salad with cheese and mushrooms",
+    "description": "Mushrooms, cheese, lettuce, sauce",
+    "information": "Allergens 4 / 260 g",
+    "type": "salad",
+    "img": 1,
+    "variants": [
+      {
+        "id": 37,
+        "price": 170
+      }
+    ]
+  },
+  {
+    "name": "Greek salad",
+    "description": "Cucumber, cheese (Feta), tomato, olives, bell pepper, sauce",
+    "information": "Allergens 4 / 270 g",
+    "type": "salad",
+    "img": 2,
+    "variants": [
+      {
+        "id": 38,
+        "price": 160
+      }
+    ]
+  },
+
+
+
+
+
+
+
+
+
+
+  {
+    "name": "Set Salmon",
+    "description": "Philadelphia, tempura, sake-make, capa-make, soy sauce, ginger, wakame, wasabi",
+    "information": "Allergens 3, 4, 7 / 24 pieces",
+    "type": "set",
+    "img": 0,
+    "variants": [
+      {
+        "id": 39,
+        "price": 700
+      }
+    ]
+  },
+  {
+    "name": "Tempura Set",
+    "description": "Tempura roll, roll in batter, chicken roll, soy sauce, ginger, wakame, wasabi",
+    "information": "Allergens 3, 4, 7 / 16 pieces",
+    "type": "set",
+    "img": 1,
+    "variants": [
+      {
+        "id": 40,
+        "price": 455
+      }
+    ]
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+  {
+    "name": "Coca-Cola",
+    "type": "drink",
+    "img": 0,
+    "variants": [
+      {
+        "count": "0,5 l",
+        "id": 41,
+        "price": 40
+      }
+    ]
+  },
+  {
+    "name": "Sprite",
+    "type": "drink",
+    "img": 1,
+    "variants": [
+      {
+        "count": "0,5 l",
+        "id": 42,
+        "price": 40
+      }
+    ]
+  },
+  {
+    "name": "Fanta",
+    "type": "drink",
+    "img": 2,
+    "variants": [
+      {
+        "count": "0,5 l",
+        "id": 43,
+        "price": 40
+      }
+    ]
+  },
+  {
+    "name": "Red Bull",
+    "type": "drink",
+    "img": 3,
+    "variants": [
+      {
+        "count": "0,25 l",
+        "id": 44,
+        "price": 50
+      }
+    ]
+  },
+  {
+    "name": "Sprite",
+    "type": "drink",
+    "img": 4,
+    "variants": [
+      {
+        "count": "1 l",
+        "id": 45,
+        "price": 60
+      }
+    ]
+  },
+  {
+    "name": "Coca-Cola",
+    "type": "drink",
+    "img": 5,
+    "variants": [
+      {
+        "count": "1 l",
+        "id": 46,
+        "price": 60
+      }
+    ]
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+  {
+    "name": "Sushi sticks",
+    "type": "other",
+    "img": 0,
+    "variants": [
+      {
+        "count": "1 piece",
+        "id": 47,
+        "price": 10
+      }
+    ]
+  },
+  {
+    "name": "Pickled ginger",
+    "type": "other",
+    "img": 1,
+    "variants": [
+      {
+        "count": "25 gr",
+        "id": 48,
+        "price": 10
+      }
+    ]
+  },
+  {
+    "name": "Soy Sauce",
+    "type": "other",
+    "img": 2,
+    "variants": [
+      {
+        "count": "30 ml",
+        "id": 49,
+        "price": 10
+      }
+    ]
+  },
+  {
+    "name": "Wakame",
+    "type": "other",
+    "img": 3,
+    "variants": [
+      {
+        "count": "25 gr",
+        "id": 50,
+        "price": 10
+      }
+    ]
+  },
+  {
+    "name": "Mozzarella",
+    "type": "other",
+    "img": 4,
+    "variants": [
+      {
+        "count": "50 gr",
+        "id": 51,
+        "price": 40
+      }
+    ]
+  }
+]
